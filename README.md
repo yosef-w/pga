@@ -1,6 +1,6 @@
-# 🅿️ PGA - Parking Guidance Assistant
+# 🅿️ PGA - Parking Garage App
 
-**PGA (Parking Guidance Assistant)** is a React Native application designed to help drivers find available parking spots in real-time, saving time and reducing frustration. Whether you're navigating a crowded parking garage or searching for a street spot, PGA provides up-to-date availability information to enhance efficiency and ease your parking experience.
+**PGA (Parking Garage App)** is a React Native application designed to help drivers find available parking spots in real-time, saving time and reducing frustration. PGA provides up-to-date availability information to enhance efficiency and simplify your parking experience.
 
 ## 🚀 Features
 
