@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "cafca445-d5f9-4bc5-8426-424604d8ab00"
+      }
+    },
+    "owner": "ywolday"
   }
 }
