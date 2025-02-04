@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# 🅿️ PGA - Parking Guidance Assistant
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**PGA (Parking Guidance Assistant)** is a React Native application designed to help drivers find available parking spots in real-time, saving time and reducing frustration. Whether you're navigating a crowded parking garage or searching for a street spot, PGA provides up-to-date availability information to enhance efficiency and ease your parking experience.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 📍 **Real-Time Parking Availability** - View open parking spots in real-time.
+- 📡 **Live Updates** - Updates frequently to reflect changing parking conditions.
+- 🔔 **Notifications** - Get alerts when a nearby spot becomes available.
+- 💰 **Optimized Efficiency** - Saves time and fuel by directing you to the nearest available spot.
 
-   ```bash
+## 🛠️ Tech Stack
+
+- **Frontend:** React Native, Expo
+- **Backend:** Node.js, Express
+- **Database:** Firebase / PostgreSQL (for storing parking data)
+- **Real-Time Updates:** WebSockets / Firebase Realtime Database
+
+## 📦 Installation & Setup
+
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/yourusername/pga.git
+   cd pga
+   ```
+
+2. **Install Dependencies:**
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+   or if using Yarn:
+   ```sh
+   yarn install
    ```
 
-In the output, you'll find options to open the app in a
+3. **Start the Application:**
+   ```sh
+   npm start
+   ```
+   or with Expo:
+   ```sh
+   expo start
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🤝 Contributing
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Added a new feature'`).
+4. Push to your branch (`git push origin feature-name`).
+5. Open a Pull Request.
 
-## Get a fresh project
 
-When you're ready, run:
+## 📞 Contact
 
-```bash
-npm run reset-project
-```
+For any questions or feedback, reach out or open an issue on GitHub.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Happy Parking! 🚗🅿️
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
